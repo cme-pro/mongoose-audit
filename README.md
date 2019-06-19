@@ -1,10 +1,6 @@
 
 # mongoose-audit
 
-[![Build Status](https://travis-ci.org/cme-pro/mongoose-audit.svg?branch=master)](https://travis-ci.org/cme-pro/mongoose-audit)
-[![Code Climate](https://codeclimate.com/github/cme-pro/mongoose-audit/badges/gpa.svg)](https://codeclimate.com/github/cme-pro/mongoose-audit)
-
-
 Mongoose plugin to store audit information like userAgent, ip, country, etc...
 
 This plugin simply adds the following fields: 
@@ -42,7 +38,7 @@ $ npm install mongoose-audit --save
 ### Adding plugin to the schema
 
 ```js
-BlogPost.plugin(mongooseAuditExtra, { userModel: 'Author' });
+BlogPost.plugin(mongooseAudit, { userModel: 'Author' });
 ```
 
 ### Plugin options
