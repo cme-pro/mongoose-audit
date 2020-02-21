@@ -1,3 +1,6 @@
+[![npm][npm]][npm-url]
+[![node][node]][node-url]
+[![downloads][downloads]][downloads-url]
 
 # mongoose-audit
 
@@ -70,3 +73,14 @@ On delete (only useful if combined with [mongoose-delete plugin](https://www.npm
     await post.save();
     await post.delete();
 ```
+
+
+[npm]: https://img.shields.io/npm/v/@cme-pro/mongoose-audit.svg
+[npm-url]: https://npmjs.com/package/@cme-pro/mongoose-audit
+[node]: https://img.shields.io/node/v/@cme-pro/mongoose-audit.svg
+[node-url]: https://nodejs.org
+[tests]: http://img.shields.io/travis/webpack-contrib/@cme-pro/mongoose-audit.svg
+[tests-url]: https://travis-ci.org/webpack-contrib/@cme-pro/mongoose-audit
+[downloads]: https://img.shields.io/npm/dt/@cme-pro/mongoose-audit.svg
+[downloads-url]: https://npmjs.com/package/@cme-pro/mongoose-audit
+
