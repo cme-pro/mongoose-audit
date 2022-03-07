@@ -25,12 +25,12 @@
     "url": "https://github.com/cme-pro/mongoose-audit/issues"
   },
   "devDependencies": {
-    "@types/mongoose": "5.5.6",
-    "mongoose": "5.7.5",
+    "@types/mongoose": "5.11.96",
+    "mongoose": "5.13.14",
     "typescript": "3.5.2",
     "typescript-eslint-parser": "22.0.0"
   },
   "peerDependencies": {
-    "mongoose": "5.7.5"
+    "mongoose": "5.13.14"
   }
 }
